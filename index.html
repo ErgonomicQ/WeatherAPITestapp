@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Weather Dashboard</title>
+</head>
+<body>
+   
+  <div class="container">
+    <header>
+        Weather Forecast
+    </header>
+    <div class="sidebar">
+      <form id="city-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button type="submit">Search</button>
+      </form>
+      <div class="city-list">
+        <h2>Core Cities</h2>
+        <ul>
+          <li><button class="city-button">Denver</button></li>
+          <li><button class="city-button">Salem</button></li>
+          <li><button class="city-button">San Diego</button></li>
+          <li><button class="city-button">Toronto</button></li>
+          <li><button class="city-button">New York</button></li>
+          <!-- Add more cities as buttons here -->
+        </ul>
+      </div>
+    </div>
+    <div class="forecast">
+      <div class="selected-city"></div>
+      <div class="forecast-days">
+        <!-- Squared boxes for each day -->
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/index.js"></script>
+</body>
+</html>

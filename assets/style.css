@@ -3,20 +3,19 @@ body {
     font-family: Arial, sans-serif;
   }
   
-header{
-    text-align: center;
-    font-size: 18px;
+  header {
     background-color: #007bff;
-    justify-content: center;
+    color: #ffffff;
+    text-align: center;
     padding: 20px;
-}
-
+  }
+  
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px); /* Adjust for header height */
+    width: 100vw; /* Span the full width of the viewport */
   }
   
   .sidebar {
